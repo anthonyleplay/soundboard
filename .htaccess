@@ -9,5 +9,4 @@ RewriteEngine on
 #--------------------------------------------------
 
 # Article sans numéro de page :
-RewriteRule ^(accueil)$ index.php [L]
 ErrorDocument 404 /view/404.php
