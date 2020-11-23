@@ -16,9 +16,17 @@ require_once "controler\index-ctrl.php";
 
 
 <body>
+    <!-- header -->
+    <?php
+    include_once 'include\part-header.php';
+    ?>
 
 
 
+    <!-- footer -->
+    <?php
+    include_once 'include\part-footer.php';
+    ?>
 
     <!-- JS bootstrap -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
