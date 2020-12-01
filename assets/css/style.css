@@ -6,29 +6,33 @@ body {
 }
 
 .bg-green {
-background-color: #ade498;
+    background-color: #ade498;
 }
 
-.text-yellow {
-background-color: #ede682;
+input.rounded-circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-inline: 20px;
+    margin-top: 10px;
 }
 
+.container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 img#logo.rounded-circle {
     width: 100px;
     height: 100px;
+   
 }
-
-/* 
-@media (min-width: 992px) {
-    .navbar {
-        height: 50px;
-    }
-} */
 
 footer {
     position: absolute;
     bottom: 0;
     left: 0;
-     right: 0;
+    right: 0;
+    color: black;
 }

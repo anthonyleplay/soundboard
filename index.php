@@ -51,100 +51,38 @@ require_once "controler\index-ctrl.php";
             </ul>
         </div>
     </nav>
-    <!-- section-->
-    <section>
+
+    <section class="align-item-center">
         <div class="container">
-            <div class="row">
-                <div class="col-md-4 col-xs-6">
-                    <audio preload="auto" id="sound1">
-                        <source src="https://raw.githubusercontent.com/cartz/various/master/soundboard/audio/punch.ogg" type="audio/ogg">
-                        <source src="https://raw.githubusercontent.com/cartz/various/master/soundboard/audio/punch.mp3" type="audio/mpeg">
-                    </audio>
-                    <button type="button" class="btn btn-lg btn-block" onclick="document.getElementById('sound1').play()">TEST</button>
-                </div>
-                <div class="col-md-4 col-xs-6">
-                    <audio preload="auto" id="sound2">
-                        <source src="https://raw.githubusercontent.com/cartz/various/master/soundboard/audio/punch.ogg" type="audio/ogg">
-                        <source src="https://raw.githubusercontent.com/cartz/various/master/soundboard/audio/punch.mp3" type="audio/mpeg">
-                    </audio>
-                    <button type="button" class="btn btn-lg btn-block" onclick="document.getElementById('sound2').play()">TEST</button>
-                </div>
-                <div class="col-md-4 col-xs-6">
-                    <audio preload="auto" id="sound3">
-                        <source src="https://raw.githubusercontent.com/cartz/various/master/soundboard/audio/punch.ogg" type="audio/ogg">
-                        <source src="https://raw.githubusercontent.com/cartz/various/master/soundboard/audio/punch.mp3" type="audio/mpeg">
-                    </audio>
-                    <button type="button" class="btn btn-lg btn-block" onclick="document.getElementById('sound3').play()">TEST</button>
-                </div>
+            <div class="row justify-content-center">
+                <input type="button" class="rounded-circle">
+                <input type="button" class="rounded-circle">
+                <input type="button" class="rounded-circle">
+                <input type="button" class="rounded-circle">
+                <input type="button" class="rounded-circle">
+                <input type="button" class="rounded-circle">
             </div>
-            <div class="row">
-                <div class="col-md-4 col-xs-6">
-                    <audio preload="auto" id="sound1">
-                        <source src="https://raw.githubusercontent.com/cartz/various/master/soundboard/audio/punch.ogg" type="audio/ogg">
-                        <source src="https://raw.githubusercontent.com/cartz/various/master/soundboard/audio/punch.mp3" type="audio/mpeg">
-                    </audio>
-                    <button type="button" class="btn btn-lg btn-block" onclick="document.getElementById('sound1').play()">TEST</button>
-                </div>
-                <div class="col-md-4 col-xs-6">
-                    <audio preload="auto" id="sound2">
-                        <source src="https://raw.githubusercontent.com/cartz/various/master/soundboard/audio/punch.ogg" type="audio/ogg">
-                        <source src="https://raw.githubusercontent.com/cartz/various/master/soundboard/audio/punch.mp3" type="audio/mpeg">
-                    </audio>
-                    <button type="button" class="btn btn-lg btn-block" onclick="document.getElementById('sound2').play()">TEST</button>
-                </div>
-                <div class="col-md-4 col-xs-6">
-                    <audio preload="auto" id="sound3">
-                        <source src="https://raw.githubusercontent.com/cartz/various/master/soundboard/audio/punch.ogg" type="audio/ogg">
-                        <source src="https://raw.githubusercontent.com/cartz/various/master/soundboard/audio/punch.mp3" type="audio/mpeg">
-                    </audio>
-                    <button type="button" class="btn btn-lg btn-block" onclick="document.getElementById('sound3').play()">TEST</button>
-                </div>
+            <div class="row justify-content-center">
+                <input type="button" class="rounded-circle">
+                <input type="button" class="rounded-circle">
+                <input type="button" class="rounded-circle">
+                <input type="button" class="rounded-circle">
+                <input type="button" class="rounded-circle">
+                <input type="button" class="rounded-circle">
             </div>
-            <div class="row">
-                <div class="col-md-4 col-xs-6">
-                    <audio preload="auto" id="sound1">
-                        <source src="https://raw.githubusercontent.com/cartz/various/master/soundboard/audio/punch.ogg" type="audio/ogg">
-                        <source src="https://raw.githubusercontent.com/cartz/various/master/soundboard/audio/punch.mp3" type="audio/mpeg">
-                    </audio>
-                    <button type="button" class="btn btn-lg btn-block" onclick="document.getElementById('sound1').play()">TEST</button>
-                </div>
-                <div class="col-md-4 col-xs-6">
-                    <audio preload="auto" id="sound2">
-                        <source src="https://raw.githubusercontent.com/cartz/various/master/soundboard/audio/punch.ogg" type="audio/ogg">
-                        <source src="https://raw.githubusercontent.com/cartz/various/master/soundboard/audio/punch.mp3" type="audio/mpeg">
-                    </audio>
-                    <button type="button" class="btn btn-lg btn-block" onclick="document.getElementById('sound2').play()">TEST</button>
-                </div>
-                <div class="col-md-4 col-xs-6">
-                    <audio preload="auto" id="sound3">
-                        <source src="https://raw.githubusercontent.com/cartz/various/master/soundboard/audio/punch.ogg" type="audio/ogg">
-                        <source src="https://raw.githubusercontent.com/cartz/various/master/soundboard/audio/punch.mp3" type="audio/mpeg">
-                    </audio>
-                    <button type="button" class="btn btn-lg btn-block" onclick="document.getElementById('sound3').play()">TEST</button>
-                </div>
+            <div class="row justify-content-center">
+                <input type="button" class="rounded-circle">
+                <input type="button" class="rounded-circle">
+                <input type="button" class="rounded-circle">
+                <input type="button" class="rounded-circle">
+                <input type="button" class="rounded-circle">
+                <input type="button" class="rounded-circle">
             </div>
         </div>
     </section>
 
-                </div>
-                <div class="col-3">
 
-                </div>
-                <div class="col-3">
 
-                </div>
-                <div class="col-3">
-
-                </div>
-                <div class="col-3">
-
-                </div>
-                <div class="col-3">
-
-                </div>
-            </div>
-        </div>
-    </main>
 
     <!-- footer -->
     <?php
