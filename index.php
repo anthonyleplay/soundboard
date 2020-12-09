@@ -18,7 +18,7 @@ require_once "controler\index-ctrl.php";
 <body>
     <!-- navbar -->
     <?php
-    include_once 'include\part-navbar.php';
+    include_once 'include\navbar.php';
     ?>
     <!--navbar-->
     
@@ -57,7 +57,7 @@ require_once "controler\index-ctrl.php";
 
     <!-- footer -->
     <?php
-    include_once 'include\part-footer.php';
+    include_once 'include\footer.php';
     ?>
 
     <!-- JS bootstrap -->
